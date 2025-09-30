@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.title {
+    font-family: "Praysire", serif;
+    font-size: 41px;
+    color: #ba936f;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.about {
+    font-family: "Lato", sans-serif;
+    text-decoration: line-through red dotted;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.story {
+    font-size: larger;
+    text-align: justify;
+    text-shadow: -5px -2px 3px black,
+    2px 3px 1px blue;
+    line-height: 1.6;
+    word-spacing: 4px;
+}
+
+.list {
+    text-align: right;
+}
+
+.list span {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: darkgreen;
+    text-shadow: 2px 1px 1px rgba(255, 255, 0, 0.466);
+    text-transform: lowercase;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    font-weight: 900;
+    font-style: oblique;
+    color: rgba(47, 0, 255, 0.526);
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+}
