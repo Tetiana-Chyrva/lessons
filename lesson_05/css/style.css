@@ -1,0 +1,73 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.25;
+    color: #2f302c;
+    text-transform: uppercase;
+    max-width: 285px;
+    padding: 82px 0px 72px;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.section {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.items {
+    font-size: 0px;
+    margin-left: -34px;
+    margin-right: -34px;
+    margin-bottom: 68px;
+}
+.item {
+    display: inline-block;
+    width: 33.3333333%;
+    vertical-align: top;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.title {
+    color: #2f302c;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.text {
+    color: #7e7f7c;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.image{
+    max-width: 60px;
+    margin-bottom: 24px;
+}
+
+footer {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    text-decoration: overline;
+    text-align: center;
+}
+
+
+
