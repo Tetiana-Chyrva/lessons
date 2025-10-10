@@ -1,0 +1,100 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+.main-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: darkgreen;
+    text-shadow: -3px -3px 5px yellowgreen;
+    letter-spacing: 2px;
+    text-decoration: underline dotted rgba(197, 197, 18, 0.507);
+    text-transform: uppercase;
+    margin-bottom: 82px;
+}
+
+.section {
+    padding: 114px 0 110px;
+    margin-bottom: 82px;
+    width: 100%;
+    max-width: 1920px;
+    background-image: url("../img/main_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 52.5%;
+}
+
+[class*="subtitle"] {
+    font-family: "Lato", sans-serif;
+    color: #2f302c;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.04;
+}
+
+.title-top {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.line {
+    margin-bottom: 36px;
+}
+
+.title-bottom {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #7e7f7c;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 374px;
+}
+
+.list-block {
+    max-width: 271px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #252b42;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: .20000000298023224px;
+    margin-bottom: 65px;
+}
+
+[class*="item"] {
+    margin-bottom: 15px;
+    min-height: 32px;
+    padding: 4px 4px 4px 42px;
+}
+
+.green-item {
+    background: url("../img/green_check.jpg") 0 0 no-repeat;
+}
+
+.gray-item {
+    background: url("../img/grey_check.jpg") 0 0 no-repeat;
+}
+
+footer {
+    color: darkblue;
+    text-decoration: overline;
+}
+
+
