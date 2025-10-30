@@ -1,0 +1,215 @@
+@import url("reset.css");
+
+body {
+    font-family: "Comic Relief", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.main-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+    color: crimson;
+}
+
+.about { 
+    background: url(../img/cheese.jpg) 0 0 / contain repeat-x; 
+    min-height: 120px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 3px 2px yellowgreen;
+    text-decoration: underline dotted;
+    letter-spacing: 2px;
+}
+
+.link {
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    background-color: chartreuse;
+}
+
+.link:focus {
+    color: lightblue;
+    background-color: white;
+}
+
+.game {
+    margin-bottom: 30px;
+}
+
+.game-container {
+    min-height: 700px;
+    background: url(../img/old-house.jpg) 0 0 / cover no-repeat;
+    font-size: 0;
+}
+
+.start {
+    background-image: url(../img/mouse.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    width: 100px;
+    height: 120px;
+}
+
+[class*="step"]:not(.step6) {
+    background: url(../img/track.jpg) 0 0 / contain repeat;
+}
+
+[class*="step"],
+.home,
+.bingo {
+    visibility: hidden;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.step1 {
+    width: 20px;
+    height: 130px;
+    margin-left: 40px;
+}
+
+.step2 {
+    height: 40px;
+    width: 350px;
+    margin-left: 40px;
+}
+
+.step3 {
+    height: 160px;
+    width: 50px;
+    margin-left: 340px;
+}
+
+.step4 {
+    height: 25px;
+    width: 220px;
+    margin-left: 170px;
+}
+
+.step5 {
+    height: 125px;
+    width: 50px;
+    margin-left: 170px;
+}
+
+.step6 {
+    text-transform: uppercase;
+    height: 15px;
+    width: 550px;
+    background-color: red;
+    margin-left: 170px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.step7 {
+    height: 85px;
+    width: 35px;
+    margin-left: 685px;
+    margin-top: -15px;
+}
+
+.home {
+    width: 100px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50% 50% 0 0;
+    margin-left: 655px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.bingo {
+    background-image: url(../img/mouse-at-home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+}
+
+.start:hover ~ .step1 {
+    visibility: visible;
+}
+
+.step1:hover,
+.step1:hover ~ .step2 {
+    visibility: visible;
+}
+
+.step2:hover,
+.step2:hover ~ .step3 {
+    visibility: visible;
+}
+
+.step3:hover,
+.step3:hover ~ .step4 {
+    visibility: visible;
+}
+
+.step4:hover,
+.step4:hover ~ .step5 {
+    visibility: visible;
+}
+
+.step5:hover,
+.step5:hover ~ .step6 {
+    visibility: visible;
+}
+
+.step6:hover,
+.step6:hover ~ .step7 {
+    visibility: visible;
+}
+
+.step7:hover,
+.step7:hover ~ .home {
+    visibility: visible;
+}
+
+.home:hover,
+.home:hover + .bingo {
+    visibility: visible;
+}
+
+.green-item::before{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url(../img/green_check.jpg) 0 0 no-repeat;
+    vertical-align: middle;
+}
+
+.gray-item::before{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: url(../img/grey_check.jpg) 0 0 no-repeat;
+    vertical-align: middle;
+}
+
+[class*="item"] {
+    margin-bottom: 15px;
+    min-height: 32px;
+    padding: 0px 4px 4px 42px;
+}
